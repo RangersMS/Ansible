@@ -35,3 +35,5 @@ jobs:
                 push: false
                 tags: |
                   ghcr.io/rangersms/ansible:${{ env.ANSIBLE_VERSION }}-ubuntu2204
+                  ghcr.io/rangersms/ansible:${{ env.ANSIBLE_VERSION }}
+                  ghcr.io/rangersms/ansible:latest
