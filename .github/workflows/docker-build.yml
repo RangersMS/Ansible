@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-    ANSIBLE_VERSION: 8.1.6
+    ANSIBLE_VERSION: 8.6.1
     IMAGE_NAME: ${{ github.repository }}
 
 jobs:
